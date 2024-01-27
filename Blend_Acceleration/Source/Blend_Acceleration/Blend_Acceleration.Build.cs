@@ -17,10 +17,8 @@ public class Blend_Acceleration : ModuleRules
 		
 		PrivateIncludePaths.AddRange(
 			new string[] {
-                "F:\\Games\\UE_5.3\\Engine\\Source\\Runtime\\Engine\\Classes\\Animation\\",
-                "F:\\Games\\UE_5.3\\Engine\\Source\\Runtime\\CoreUObject\\Public\\UObject\\",
-                //"F:\\Games\\UE_5.3\\Engine\\Source\\Editor\\AnimGraph\\Public\\",
-                //"F:\\Games\\UE_5.3\\Engine\\Intermediate\\Build\\Win64\\UnrealEditor\\Inc\\AnimGraph\\UHT\\"
+                "..\\Engine\\Source\\Runtime\\Engine\\Classes\\Animation\\",
+                "..\\Engine\\Source\\Runtime\\CoreUObject\\Public\\UObject\\",
 				// ... add other private include paths required here ...
 			}
 			);
